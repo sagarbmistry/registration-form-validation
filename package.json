@@ -16,10 +16,6 @@
     "uuid": "^8.3.2",
     "web-vitals": "^2.1.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sagarbmistry/registration-form-validation.git"
-  },
   "keywords": [
     "react",
     "css",
@@ -28,17 +24,11 @@
     "form",
     "html5"
   ],
-  "bugs": {
-    "url": "https://github.com/sagarbmistry/registration-form-validation/issues"
-  },
-  "homepage": "http://sagarbmistry.github.io/registration-form-validation",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
