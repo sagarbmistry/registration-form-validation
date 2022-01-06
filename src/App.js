@@ -20,11 +20,9 @@ const App = () => {
       <Suspense fallback={<div className="loader">...</div>}>
         <Router history={history}>
           <Routes>
-            <Fragment>
               <Route path="/" element={<RegisterForm />} />
               <Route path="showdetails" element={<ShowDetails />} />
               <Route path="congrats" element={<Congrats />} />
-            </Fragment>
           </Routes>
         </Router>
       </Suspense>
