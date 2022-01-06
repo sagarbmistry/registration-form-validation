@@ -18,7 +18,7 @@ const App = () => {
   return (
     <div className="App">
       <Suspense fallback={<div className="loader">...</div>}>
-        <Router history={history}>
+        <Router history={history} basename='/'>
           <Routes>
               <Route path="/" element={<RegisterForm />} />
               <Route path="showdetails" element={<ShowDetails />} />
