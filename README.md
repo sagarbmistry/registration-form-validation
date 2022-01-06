@@ -23,7 +23,7 @@ Task d) Page 03 "Congratulation" page consist of below data to be displayed.
 
 logo
 
-Congratulation "<<Full Name>>" your information is saved with us, same details are mailed to your personal email id i.e "<<Email Address>>"
+Congratulation "{Full Name}" your information is saved with us, same details are mailed to your personal email id i.e "{Email Address}"
 
 
 ## Live Application URL
