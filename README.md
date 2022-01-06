@@ -26,11 +26,6 @@ logo
 Congratulation "{Full Name}" your information is saved with us, same details are mailed to your personal email id i.e "{Email Address}"
 
 
-## Live Application URL
-
-### https://sagarbmistry.github.io/registration-form-validation
-This URL has the application deployed in
-
 ## Prerequisites
 ### Install Node JS
 Refer to https://nodejs.org/en/ to install nodejs
