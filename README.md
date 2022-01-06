@@ -1,74 +1,65 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Registration Form Validation
+## What is the use of this Repo
+This Project is a registration with validation ReactJS Project which demonstrates the following
+1) Full Name field
+2) DOB field (Age should be more than 18 years of age).
+3) Male  Female (at least one radio button should be selected)
+4) Email Address (email pattern should be mandatory)
+4) Mobile number (only Indian standard, on focus +91 should appear with eg: +91 9999999999, only "+" and number's should be allowed in the field, max length 13 including +91 )
+5) Submit button (on click validate all the above fields)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Appropriate error message to be displayed below the input text field with border red.
 
-## Available Scripts
 
-In the project directory, you can run:
+Task a) 1 to 5 points should have proper validation on blur (i.e empty field, wrong pattern etc)
 
-### `npm start`
+Task b) On submit click the validation should take place for each field and then redirect to different page called "Confirm your details" will the same fields displayed again without any edit option i.e READ ONLY
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Task c) Page 02 "Confirm your details" page once user clicks on confirm button redirect it to "Congratulation" page with AJAX call to post data on the server. (Create a dummy ajax call to store data in object and pass it)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Task d) Page 03 "Congratulation" page consist of below data to be displayed.
 
-### `npm test`
+ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+logo
 
-### `npm run build`
+Congratulation "<<Full Name>>" your information is saved with us, same details are mailed to your personal email id i.e "<<Email Address>>"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Application URL
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### https://sagarbmistry.github.io/registration-form-validation
+This URL has the application deployed in
 
-### `npm run eject`
+## Prerequisites
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Install create-react-app
+Install create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install -g create-react-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Cloning and Running the Application in local
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone the project into local
+```bash
+git clone https://github.com/sagarbmistry/registration-form-validation.git
+cd registration-form-validation
+```
 
-## Learn More
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to run the application Type the following command
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# registration-form-validation
->>>>>>> a54eb29d00186a19a64a1121b54e94ca40a57861
+The Application Runs on **localhost:3000**
