@@ -25,6 +25,8 @@ logo
 
 Congratulation "{Full Name}" your information is saved with us, same details are mailed to your personal email id i.e "{Email Address}"
 
+### Pages UI
+[IMAGE URL](https://github.com/sagarbmistry/registration-form-validation/blob/master/src/assets/ui.png?raw=true)
 
 ## Prerequisites
 ### Install Node JS
