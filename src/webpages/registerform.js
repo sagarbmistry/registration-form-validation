@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 import moment from "moment";
 import { v4 as uuid } from 'uuid';
 import ErrorSpan from '../Utils/error'
-import { useNavigate, createSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const emailRegExp = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/;
 const phonenoRegExp = /^((\+91))[789]{1}\d{9}$/;
@@ -180,7 +180,7 @@ function RegisterForm(props) {
 
 
   const onInputChange = (e) => {
-    const { name, value, id } = e.target;
+    const { name, value } = e.target;
     switch (name) {
       case "fullname":
         isError.fullname = value.length < 0 ? { message: validationDictionary.fullname.required, status: false, length: 0 }

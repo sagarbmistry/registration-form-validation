@@ -1,10 +1,8 @@
-import React, { Fragment, useEffect, useState, useMemo } from 'react'
-import { useNavigate, useLocation, createSearchParams } from "react-router-dom";
+import React, { useEffect, useState } from 'react'
+import { useNavigate, useLocation } from "react-router-dom";
 import '../Form.css';
 import CustomizedInputs from '../Utils/inputType'
 import logo from '../assets/logo.svg';
-import moment from "moment";
-import { history } from '../Utils/history';
 let projectID = "storedataassignment"
 let collection = "datamaticsassignment"
 

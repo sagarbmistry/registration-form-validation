@@ -1,9 +1,7 @@
-import React, { Fragment, useEffect, useState, useMemo } from 'react'
-import { useNavigate, useLocation, createSearchParams } from "react-router-dom";
+import React, { useEffect, useState } from 'react'
+import { useNavigate, useLocation } from "react-router-dom";
 import '../Form.css';
 import logo from '../assets/logo.svg';
-import moment from "moment";
-import { history } from '../Utils/history';
 let projectID = "storedataassignment"
 let collection = "datamaticsassignment"
 
@@ -17,13 +15,12 @@ let isError = {
 }
 
 function Congrats(props) {
-  const { search } = useLocation();
   const navigate = useNavigate();
   const [getDetails, setDetails] = useState(isError)
   const queryParams = new URLSearchParams(window.location.search);
   const id = queryParams.get('id');
 
-  const getfromDB = async (val) => {
+  const getfromDB = async () => {
     let url = api + "/" + id;
 
     console.log(url)

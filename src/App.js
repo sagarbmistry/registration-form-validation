@@ -1,10 +1,8 @@
-import React, { Suspense, lazy, Fragment } from 'react';
+import React, { Suspense, lazy } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Redirect,
   Routes,
-  withRouter,
 } from "react-router-dom";
 import './App.css';
 import {history} from './Utils/history';
